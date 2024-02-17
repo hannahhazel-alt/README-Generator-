@@ -36,7 +36,7 @@ const questions = [
     {
         type: "input",
         name: "require",
-        message: "Please list any dependencies here",
+        message: "Please list any dependencies and languages here",
     },
     {
         type: "input",
@@ -46,7 +46,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Please list any languages used for this project",
+        message: "Please list any tell users how to use this project",
     },
     {
         type: "input",
