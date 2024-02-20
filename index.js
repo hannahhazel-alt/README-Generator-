@@ -12,43 +12,43 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Please name your project",
+        message: "Please name your project:",
     },
     {
         type: "input",
         name: "description",
-        message: "Please describe this project",
+        message: "Please describe this project:",
     },
     {
         type: "input",
         name: "screenshot",
-        message: "Please provide the relative path to a screenshot of the application",
+        message: "Please provide the relative path to a screenshot of the application:",
     },
     {
         type: "input",
         name: "link",
-        message: "Please provide a URL to the deployed app for users to access",
+        message: "Please provide a URL to the deployed app for users to access:",
     },
     {
         type: "checkbox",
         name: "license",
-        message: "Please select a license applicable to this project",
+        message: "Please select a license applicable to this project:",
         choices: ["MIT", "none"],
     },
     {
         type: "input",
         name: "require",
-        message: "Please list any dependencies and languages here",
+        message: "Please list any dependencies and languages here:",
     },
     {
         type: "input",
         name: "features",
-        message: "Please list any cool features here",
+        message: "Please list any cool features here:",
     },
     {
         type: "input",
         name: "usage",
-        message: "Please list any tell users how to use this project",
+        message: "Please list any tell users how to use this project:",
     },
     {
         type: "input",
@@ -63,7 +63,7 @@ const questions = [
     {
         type: "input",
         name: "contributers",
-        message: "Please list any contributers using their Github usernames",
+        message: "Please list any contributers using their Github usernames:",
     },
     {
         type: "input",
