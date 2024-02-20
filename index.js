@@ -2,10 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
-//import { fileURLToPath } = "url";
 const generateMarkdown = require("./utils/generateMarkdown.js");
-
-//console.log(renderLicenseBadge('Hello'))
 
 //creating an array of questions for user input// 
 const questions = [
