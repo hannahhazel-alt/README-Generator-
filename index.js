@@ -1,9 +1,11 @@
 //including packages needed// 
-import inquirer from "inquirer";
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
-import generateMarkdown from "./utils/generateMarkdown"; 
+const inquirer = require("inquirer");
+const fs = require("fs");
+const path = require("path");
+//import { fileURLToPath } = "url";
+const generateMarkdown = require("./utils/generateMarkdown.js");
+
+//console.log(renderLicenseBadge('Hello'))
 
 //creating an array of questions for user input// 
 const questions = [
@@ -74,7 +76,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log("Creating Professional README.md file...");
-        writeToFile("./dist/README.md", generateMarkdown({ ...responses}));
+        writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
     });
 }
 init();
